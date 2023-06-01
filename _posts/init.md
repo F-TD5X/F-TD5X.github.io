@@ -1,5 +1,5 @@
-title:
-date:
+title: Init Post Here.
+date: 2023-06-01 15:28
 tag:
 ---
 
