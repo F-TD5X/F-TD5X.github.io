@@ -2,3 +2,7 @@
 	path = themes
 	url = https://git.maye.moe/FTD5X/blog.git
 	branch = theme
+[submodule "source"]
+	path = source
+	url = https://git.maye.moe/FTD5X/blog.git
+	branch = source
