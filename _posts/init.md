@@ -5,3 +5,12 @@ tag:
 
 
 This is a init post here. A new blog site built with seprate branchs.
+
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    std::cout << "test" << endl;
+}
+```
