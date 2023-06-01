@@ -1,0 +1,4 @@
+[submodule "themes"]
+	path = themes
+	url = https://git.maye.moe/FTD5X/blog.git
+	branch = theme
