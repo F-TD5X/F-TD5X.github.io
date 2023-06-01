@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords:
 author: Maye
-language: zh-cn
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -41,15 +41,15 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
-relative_link: true
+relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
   auto_detect: true
   tab_replace: ''
-  wrap: true
-  hljs: true
+  wrap: false
+  hljs: false
 prismjs:
   enable: false
   preprocess: true
