@@ -21,7 +21,7 @@ jobs:
           ref: "hexo"
       - name: update remote
         run: |
-          git submodule update --remote
+          git pull --recurse-submodules
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
         with:
