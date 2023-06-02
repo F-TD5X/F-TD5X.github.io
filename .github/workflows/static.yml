@@ -19,6 +19,9 @@ jobs:
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
           ref: "hexo"
+      - name: update remote
+        run: |
+          git submodule update --remote
       - name: Use Node.js 16.x
         uses: actions/setup-node@v2
         with:
