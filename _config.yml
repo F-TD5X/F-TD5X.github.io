@@ -99,6 +99,13 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: cactus 
 
+encrypt:
+  message: ""
+  abstract: ""
+  theme: shrink
+  wrong_pass_message: wrong password.
+  wrong_hash_message: conetnt invalid.
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
