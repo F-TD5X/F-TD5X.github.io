@@ -14,7 +14,7 @@
 <meta property="og:description" content="起因一个ES集群发现磁盘读写带宽指标disk.read_bytes异常高，差不多到了 4Gbps，但查询流量不应该表现出这样的行为，并不存在拉取数据的场景，也没有大查询。 原因后来发现磁盘的 read_ahead 指标为 8MiB (16384 sectors)，调整为ES官方推荐的 128 KiB 后，磁盘带宽指标就恢复正常了。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-06-01T08:38:00.000Z">
-<meta property="article:modified_time" content="2023-06-02T03:28:30.760Z">
+<meta property="article:modified_time" content="2023-06-02T03:29:46.979Z">
 <meta property="article:author" content="Maye">
 <meta property="article:tag" content="Elasticsearch">
 <meta name="twitter:card" content="summary">
@@ -94,6 +94,8 @@
     <span id="actions">
       <ul>
         
+        <li><a class="icon" aria-label="上一篇" href="/2023/06/01/encrypt_test/"><i class="fa-solid fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
         
         <li><a class="icon" aria-label="下一篇" href="/2023/05/31/useful_links/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
@@ -149,7 +151,7 @@
       
         <time datetime="2023-06-01T08:38:00.000Z" class="dt-published" itemprop="datePublished">2023-06-01</time>
         
-        (Updated: <time datetime="2023-06-02T03:28:30.760Z" class="dt-updated" itemprop="dateModified">2023-06-02</time>)
+        (Updated: <time datetime="2023-06-02T03:29:46.979Z" class="dt-updated" itemprop="dateModified">2023-06-02</time>)
         
       
     </div>
