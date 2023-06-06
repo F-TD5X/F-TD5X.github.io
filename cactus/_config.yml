@@ -161,9 +161,9 @@ disqus:
 
 # Fill in your Utterances data to enable Utterances comments
 utterances:
-  enabled: false
-  repo: owner/githubrepo
-  issue_term: pathname
+  enabled: true
+  repo: F-TD5X/F-TD5X.github.io
+  issue_term: blog
   label: Comment
   theme: github-dark
 
