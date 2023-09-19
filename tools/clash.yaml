@@ -5,7 +5,7 @@ proxies:
     type: ss
     cipher: "2022-blake3-aes-128-gcm"
     udp: true
-    port: 35166
+    port: 39104
 
   - name: AZ1-via-NNR
     server: "58.242.130.102"
@@ -13,7 +13,7 @@ proxies:
     type: ss
     cipher: "2022-blake3-aes-128-gcm"
     udp: true
-    port: 36847
+    port: 39106
 
   - name: AZ2-via-NNR
     server: "58.242.130.102"
@@ -32,7 +32,6 @@ proxies:
     password: "Eca1sosWgbqGDNVHk1pyDw=="
 
   - name: JP-proxy
-    #server: "www.jp2.onki.top"
     server: 113.31.113.13
     password: "Eca1sosWgbqGDNVHk1pyDw=="
     type: ss
@@ -42,7 +41,6 @@ proxies:
     port: 10898 
 
   - name: HK1-proxy
-    #server: "hk.maye.site"
     server: "42.240.130.10"
     password: "TURST0lkNm5NMlpaU2lVbnQ2Q2NoNFBlenRJT0JvOHE="
     type: ss
@@ -51,7 +49,7 @@ proxies:
     #port: 35167
     port: 13173
 
-  - name: OCI2
+  - name: OCI2-tuic
     server: www.oci2.onki.top
     port: 8443
     type: tuic
@@ -60,9 +58,8 @@ proxies:
     alpn: [ "h3", "spdy/3.1"]
     password: Qq751387
     congestion-controller: bbr
-    reduce-rtt: false
 
-  - name: az-tuic
+  - name: az1-tuic
     server: az.maye.moe
     port: 443
     type: tuic
