@@ -3,12 +3,16 @@ title: Tools & Pages
 date: 2023-06-02 11:01:01
 ---
 
-## Website
+## Website & Config
 
 [docker](https://docker.maye.site)
-[YAC](https://yac.maye.site)
+[DOH iOS Config](https://d.maye.site/doh.mobileconfig)
+[clash-template](clash-template.yaml)
+[clash](clash.yaml)
 
 
-## Links
+# Service
 
-[shadowsocks](ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206TDhBd1pGN3hTOEpFNWExNUpBdklDdyUzRCUzREBbOjpdOjM1MTY3)
+## DoT & DoH
+- `https://d.maye.site/query`
+- `tls://d.maye.site:854`

@@ -1,0 +1,75 @@
+proxies:
+  - name: OCI2-via-NNR
+    server: "58.242.130.102"
+    password: "Eca1sosWgbqGDNVHk1pyDw=="
+    type: ss
+    cipher: "2022-blake3-aes-128-gcm"
+    udp: true
+    port: 35166
+
+  - name: AZ1-via-NNR
+    server: "58.242.130.102"
+    password: "Eca1sosWgbqGDNVHk1pyDw=="
+    type: ss
+    cipher: "2022-blake3-aes-128-gcm"
+    udp: true
+    port: 36847
+
+  - name: AZ2-via-NNR
+    server: "58.242.130.102"
+    password: "Eca1sosWgbqGDNVHk1pyDw=="
+    type: ss
+    cipher: "2022-blake3-aes-128-gcm"
+    udp: true
+    port: 27970 
+
+  - name: azure-JP
+    server: az.maye.moe 
+    port: 3306
+    type: ss
+    udp: true
+    cipher: "2022-blake3-aes-128-gcm"
+    password: "Eca1sosWgbqGDNVHk1pyDw=="
+
+  - name: JP-proxy
+    #server: "www.jp2.onki.top"
+    server: 113.31.113.13
+    password: "Eca1sosWgbqGDNVHk1pyDw=="
+    type: ss
+    cipher: "2022-blake3-aes-128-gcm"
+    udp: true
+    #port: 3306
+    port: 10898 
+
+  - name: HK1-proxy
+    #server: "hk.maye.site"
+    server: "42.240.130.10"
+    password: "TURST0lkNm5NMlpaU2lVbnQ2Q2NoNFBlenRJT0JvOHE="
+    type: ss
+    cipher: "2022-blake3-aes-256-gcm"
+    udp: true
+    #port: 35167
+    port: 13173
+
+  - name: OCI2
+    server: www.oci2.onki.top
+    port: 8443
+    type: tuic
+    version: 5
+    uuid: b4d3e259-a2bb-4408-bcc5-ec2452bad3ce
+    alpn: [ "h3", "spdy/3.1"]
+    password: Qq751387
+    congestion-controller: bbr
+    reduce-rtt: false
+
+  - name: az-tuic
+    server: az.maye.moe
+    port: 443
+    type: tuic
+    uuid: b4d3e259-a2bb-4408-bcc5-ec2452bad3ce
+    alpn: [ "h3", "spdy/3.1" ]
+    reduce-rtt: false
+    password: Qq751387
+    congestion-controller: bbr
+    version: 5
+
