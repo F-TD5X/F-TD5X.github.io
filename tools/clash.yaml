@@ -77,7 +77,7 @@ proxies:
     version: 5
   - name: az1-tuic-over-oci2
     server: az.maye.moe
-    port: 8444
+    port: 8445
     ip: 146.56.42.91
     type: tuic
     uuid: b4d3e259-a2bb-4408-bcc5-ec2452bad3ce
