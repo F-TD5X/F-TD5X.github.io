@@ -89,6 +89,8 @@ proxies:
   - name: hk1-tuic
     server: hk.maye.site
     port: 8445
+    type: tuic
+    version: 5
     uuid: 162c0063-441b-482f-9328-ddeed2d195c3
     alpn: ["h3","spdy/3.1"]
     reduce-rtt: false
