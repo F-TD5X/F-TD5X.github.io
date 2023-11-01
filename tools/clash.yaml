@@ -1,6 +1,6 @@
 proxies:
   - name: OCI2-via-NNR
-    server: "58.242.130.102"
+    server: "58.242.130.170"
     password: "Eca1sosWgbqGDNVHk1pyDw=="
     type: ss
     cipher: "2022-blake3-aes-128-gcm"
@@ -9,7 +9,7 @@ proxies:
     ip-version: ipv4
 
   - name: AZ1-via-NNR
-    server: "58.242.130.102"
+    server: "58.242.130.170"
     password: "Eca1sosWgbqGDNVHk1pyDw=="
     type: ss
     cipher: "2022-blake3-aes-128-gcm"
@@ -18,7 +18,7 @@ proxies:
     ip-version: ipv4
 
   - name: AZ2-via-NNR
-    server: "58.242.130.102"
+    server: "58.242.130.170"
     password: "Eca1sosWgbqGDNVHk1pyDw=="
     type: ss
     cipher: "2022-blake3-aes-128-gcm"
