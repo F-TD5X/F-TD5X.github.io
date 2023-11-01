@@ -86,5 +86,13 @@ proxies:
     password: Qq751387
     congestion-controller: bbr
     version: 5
+  - name: hk1-tuic
+    server: hk.maye.site
+    port: 8445
+    uuid: 162c0063-441b-482f-9328-ddeed2d195c3
+    alpn: ["h3","spdy/3.1"]
+    reduce-rtt: false
+    password: Qq751387
+    congestion-controller: bbr
 
 
